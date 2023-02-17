@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 750px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.header-conatienr {
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding: 0 96px;
+  }
+
+  .header-conatienr {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 1628px;
+  }
+
+  .container {
+    padding: 0 144px;
+  }
+
+  .header-conatienr {
+    padding: 0 64px;
+  }
+}

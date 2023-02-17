@@ -1,0 +1,13 @@
+#audio-ball {
+  width: 320px;
+  height: 500px;
+  top: calc(50% - 358px);
+}
+
+
+@media only screen and (min-width: 750px) { 
+  #audio-ball {
+    width: 100%;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --color-forground: #fafafa;
+  --color-backround: #1d1d1d;
+  --invert-color: #fafafa;
+  --border: #555;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --color-forground: #1d1d1d;
+    --color-backround: #fafafa;
+    --invert-color: #fafafa;
+    --border: #ccc;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-forground: #fafafa;
+    --color-backround: #1d1d1d;
+    --invert-color: #fafafa;
+    --border: #555;
+  }
+}
+
+body.light {
+  --color-forground: #1d1d1d;
+  --color-backround: #fafafa;
+  --invert-color: #fafafa;
+  --border: #ccc;
+}
+
+body.dark {
+  --color-forground: #fafafa;
+  --color-backround: #1d1d1d;
+  --invert-color: #fafafa;
+  --border: #555;
+}
